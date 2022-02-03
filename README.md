@@ -1,5 +1,5 @@
 # GWS
-Some little automation for the Google Workspace suite
+Some little automation for the Google Workspace Suite
 
 
 # export_suspended_users_bysku.py 
