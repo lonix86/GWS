@@ -25,7 +25,7 @@ except ImportError:
 
 SCOPES = ['https://www.googleapis.com/auth/admin.directory.user', 'https://www.googleapis.com/auth/apps.licensing', 'https://www.googleapis.com/auth/admin.reports.audit.readonly', 'https://mail.google.com/']
 QUERY = 'isSuspended=true' # query list https://developers.google.com/admin-sdk/directory/v1/guides/search-users
-CLIENT_SECRET_FILE = '/Users/lonix/GAM/noovle/client_secrets.json'
+CLIENT_SECRET_FILE = '.../client_secrets.json'
 APPLICATION_NAME = 'Print suspended users'
 CUSTOMER_ID = 'INSERT_CUSTOMER_ID'  # your unique customer ID https://support.google.com/cloudidentity/answer/10070793?hl=en
 CUSTOMER_JSON = CUSTOMER_ID + '.json' # this JSON will be created inside the folder ~/.credential
