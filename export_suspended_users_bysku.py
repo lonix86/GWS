@@ -94,11 +94,11 @@ def main():
         for item in suspended_users['items']:
             if item['events'][0]['parameters'][0]['value'] == user[0]:
                 to_assign.append('<tr><td>' + user[0] +  "</td><td>&emsp;</td><td>" + format_date(item['id']['time']) + "<td>&emsp;</td><td>"  + user[1] +  '</td></tr>')
-                print ('# ' + user[0] + ' | Data di sospensione : ' + format_date(item['id']['time']))
+                print ('# ' + user[0] + ' | Suspension Date : ' + format_date(item['id']['time']))
                 break
 
     mail_body = "</td></tr>".join(to_assign)
-    mail_body = "<table><tr><th style='text-align:left;'>Mail Utente</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th style='text-align:left;'>Data sospensione</th></b><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th style='text-align:left;'>orgUnitPath</th></b></tr>" + mail_body + '</table><br>M.<br><br>'
+    mail_body = "<table><tr><th style='text-align:left;'>User mail</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th style='text-align:left;'>Suspension Date</th></b><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th style='text-align:left;'>orgUnitPath</th></b></tr>" + mail_body + '</table><br>'
 
     service = build('gmail', 'v1', http=http_auth)
 
