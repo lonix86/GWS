@@ -9,7 +9,13 @@ Some little automation for the Google Workspace Suite
   A small Google script that allows you to print emails on a spreadsheet using Gmail's advanced search
   
 ### [count user threads and messages.py](https://github.com/lonix86/GWS/blob/main/count%20user%20threads%20and%20messages.py)
-  A small Python script that allows you to quickly count a Google user's posts and threads ( python count user threads and messages.py .../oauth2servicepath user@example.com )
+  A small Python script that allows you to quickly count a Google user's posts and threads ( python 'count user threads and messages.py' .../oauth2servicepath    user@example.com )
+  
+  Example response :
+  
+  Email address: user@example.com
+  Total threads: 68384
+  Total email messages: 332722
   
  
   
