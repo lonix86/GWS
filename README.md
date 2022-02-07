@@ -13,9 +13,9 @@ Some little automation for the Google Workspace Suite
   
   Example response :
   
-  Email address: user@example.com
-  Total threads: 68384
-  Total email messages: 332722
+  Email address: user@example.com\
+  Total threads: 68384\
+  Total email messages: 332722\
   
  
   
