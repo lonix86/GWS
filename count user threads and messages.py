@@ -1,10 +1,11 @@
-#! /usr/bin/env python2
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import sys
 import googleapiclient.http
+import http.client
 from httplib2 import Http
-from httplib import HTTPResponse
+from http.client import HTTPResponse
 from oauth2client.service_account import ServiceAccountCredentials
 from apiclient.discovery import build
 
